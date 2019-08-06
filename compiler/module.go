@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"encoding/binary"
 	//"fmt"
-	"github.com/go-interpreter/wagon/disasm"
-	"github.com/go-interpreter/wagon/wasm"
-	//"github.com/go-interpreter/wagon/validate"
-	"github.com/go-interpreter/wagon/wasm/leb128"
-	"github.com/perlin-network/life/compiler/opcodes"
-	"github.com/perlin-network/life/utils"
+	"github.com/gemerio/wagon/disasm"
+	"github.com/gemerio/wagon/wasm"
+	//"github.com/gemerio/wagon/validate"
+	"github.com/gemerio/wagon/wasm/leb128"
+	"github.com/gemerio/life/compiler/opcodes"
+	"github.com/gemerio/life/utils"
 	"strings"
 )
 

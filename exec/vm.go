@@ -7,13 +7,13 @@ import (
 	"math/bits"
 	"runtime/debug"
 
-	"github.com/perlin-network/life/compiler"
-	"github.com/perlin-network/life/compiler/opcodes"
-	"github.com/perlin-network/life/utils"
+	"github.com/gemerio/life/compiler"
+	"github.com/gemerio/life/compiler/opcodes"
+	"github.com/gemerio/life/utils"
 
 	"strings"
 
-	"github.com/go-interpreter/wagon/wasm"
+	"github.com/gemerio/wagon/wasm"
 )
 
 type FunctionImport func(vm *VirtualMachine) int64

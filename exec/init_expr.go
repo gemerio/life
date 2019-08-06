@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/go-interpreter/wagon/wasm/leb128"
-	ops "github.com/go-interpreter/wagon/wasm/operators"
+	"github.com/gemerio/wagon/wasm/leb128"
+	ops "github.com/gemerio/wagon/wasm/operators"
 )
 
 // readU32 reads an unsigned 32-bit integer from a reader.

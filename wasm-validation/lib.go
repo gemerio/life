@@ -2,7 +2,7 @@ package wasm_validation
 
 import (
 	"errors"
-	"github.com/perlin-network/life/exec"
+	"github.com/gemerio/life/exec"
 	"sync"
 )
 

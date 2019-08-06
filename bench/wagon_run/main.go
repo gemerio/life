@@ -1,4 +1,4 @@
-// Modified from https://github.com/go-interpreter/wagon/blob/master/cmd/wasm-run/main.go
+// Modified from https://github.com/gemerio/wagon/blob/master/cmd/wasm-run/main.go
 
 // Copyright 2017 The go-interpreter Authors.  All rights reserved.
 // Use of this source code is governed by a BSD-style
@@ -13,9 +13,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/go-interpreter/wagon/exec"
-	"github.com/go-interpreter/wagon/validate"
-	"github.com/go-interpreter/wagon/wasm"
+	"github.com/gemerio/wagon/exec"
+	"github.com/gemerio/wagon/validate"
+	"github.com/gemerio/wagon/wasm"
 )
 
 func main() {
